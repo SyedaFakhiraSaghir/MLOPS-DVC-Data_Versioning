@@ -1,2 +1,15 @@
 1. create git repo and clone to local
-2. create code.py
+2. create code.py save csv to data folder
+3. do a git commit push before initialising dvc
+4. how do we initiate dvc.
+    dvc init -> .vc, .dvcignore
+    dvc ko batana hota hai ke data versions kahan save karna hai. s3 server hot ahai lekin hum local mai karlain ge.
+5. make idr(create s3 dir)
+6. "dvc remote add -d my remote s3"
+7. dvc add data/(dvc resposible for take care if data changes)
+    error aaye ga: data directory already track horaha hai git ke through
+    git ke folder se hata do sab kuch
+    git rm -r --cached 'data'
+    git commit -m "stop tracking data" 
+------jab dvc se data track karwate hain to dvc aik id deta hai jo use hoti hai git se code krack karwane ke liey
+8. again do dvc add data/ (creates data.dv) then add .gitignore data.dvc taake git track kare ye
