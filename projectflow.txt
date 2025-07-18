@@ -18,3 +18,4 @@
 10. git add ., git commit -m "first version of dtaa save"
 11. make changes to mycode.py file and append new row 
 12. dvc commit, dvc push
+data.dvc mai version maintain hota hai har version ki 2 files hoti hain
