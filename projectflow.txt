@@ -13,3 +13,6 @@
     git commit -m "stop tracking data" 
 ------jab dvc se data track karwate hain to dvc aik id deta hai jo use hoti hai git se code krack karwane ke liey
 8. again do dvc add data/ (creates data.dv) then add .gitignore data.dvc taake git track kare ye
+9. dvc commit , dvc push( to save version of data) 
+    md5: data change hone par ye change hoga
+10. 
